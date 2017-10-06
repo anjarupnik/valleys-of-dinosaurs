@@ -1,3 +1,5 @@
-dino1 = Dinosaur.create!( { name: "Iguanodon", age: 3, image_url: "https://goo.gl/wB6q9q" } )
+dino1 = Dinosaur.create!( { name: "Iguanodon", age: 3, image_url: "https://www.everythingdinosaur.com/wp-content/uploads/2017/03/papo_blue_velociraptor2-500x500.jpg"} )
 dino2 = Dinosaur.create!( { name: "Mosasaurus", age: 10, image_url: "https://goo.gl/aoZsYt" } )
 dino3 = Dinosaur.create!( { name: "Hungarosaurus", age: 15, image_url: "https://goo.gl/EqRlgP" } )
+dino4 = Dinosaur.create!( { name: "Snorlax", age: 30, image_url: "https://goo.gl/EqRlgP" } )
+dino5 = Dinosaur.create!( { name: "Saurus", age: 100, image_url: "https://goo.gl/EqRlgP" } )

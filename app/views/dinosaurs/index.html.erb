@@ -1,5 +1,23 @@
+<style>
+h1 {
+  background-color: lightblue;
+  color: purple;
+  font-weight: bold;
+  font-style: italic;
+}
+
+p {
+  border: 3px dotted pink;
+  width: 100px;
+}
+</style>
+
 <h1>Dinosaurs</h1>
 
 <% @dinosaurs.each do |dinosaur| %>
-  <p><%= dinosaur.name %></p>
+  <p><%= link_to dinosaur.name, dinosaur_path(dinosaur.id) %></p>
 <% end %>
+
+<hr />
+
+<%= link_to "[New Dinosaur]", new_dinosaur_path %>
